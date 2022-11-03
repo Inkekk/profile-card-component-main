@@ -1,0 +1,87 @@
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(227, 10%, 46%);
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: -200px -150px, 200px 440px;
+}
+
+.bg {
+  background-image: url(../images/bg-pattern-card.svg);
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+img {
+  border-radius: 50%;
+  border: 6px solid #fff;
+}
+
+.profile-image {
+  position: relative;
+  top: 70px;
+}
+
+main {
+  text-align: center;
+}
+
+.name-age {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+
+h2,
+.status {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.wrapper {
+  background-color: #fff;
+  padding: 5rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 0 0 15px 15px;
+}
+
+.perfil-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+ul {
+  padding-top: 1rem;
+  border-top: 1px solid hsl(0, 0%, 59%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.status-t {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 678px) {
+  body {
+    background-position: -100px -300px, 750px 450px;
+  }
+}

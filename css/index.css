@@ -11,6 +11,10 @@ body {
   background-position: -200px -150px, 200px 440px;
 }
 
+.container {
+  width: 330px;
+}
+
 .bg {
   background-image: url(../images/bg-pattern-card.svg);
   height: 120px;
